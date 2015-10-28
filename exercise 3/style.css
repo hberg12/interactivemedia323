@@ -1,17 +1,111 @@
-body{
-	background-color: lightgray;
-
+body {
+	background-color:#f2f2f2;
 }
-table{
+
+#topbox {
+	display: block;
+	height: 100px;
+	width: 1230px;
+	background-color: #3b5998;
+	position: absolute;
+	margin-top: -10px;
+	margin-left: -10px;
+}
+
+div h1 {
+	color:white;
+	position: absolute;
+	margin-top: 45px;
+	margin-left: 150px;
+}
+
+#email {
+	color:white;
+	margin-top: 15px;
+	margin-left: 730px;
+	display: inline-block;
+	padding:0px 143px 0px 0px;
+}
+
+#password {
+	color:white;
+	display: inline-block;
+	padding:0px 125px 0px 0px;
+}
+
+#box1 {
+	height:20px;
+	width:145px;
 	background-color: white;
+	border: 0.5px solid #141823;
+	margin-left: 730px;
+	margin-top: -12px;
 }
-th{
-	color: lightblue;
-	position:;
-	inline-block
+ #box2 {
+	height:20px;
+	width:145px;
+	background-color: white;
+	border: 0.5px solid #141823;
+	margin-left: 892px;
+	margin-top: -22px;
+}
 
+#login {
+	color:white;
+	height:10px;
+	width:45px;
+	background-color: #5b74a8;
+	border: 0.5px solid #141823;
+	margin-left: 1051px;
+	margin-top: -22px;
+	text-align: center;
+	padding-bottom: 10px;
 }
-div{
-	background-color: lightblue
-	
+
+#checkbox {
+	height:11px;
+	width:11px;
+	background-color: white;
+	border: 0.5px solid #141823;
+	border-radius: 25%;
+	margin-left: 730px;
+	margin-top: -5px;
+}
+
+#underemail{
+	color: #9daccb;
+	margin-left: 745px;
+	margin-top: -22px;
+	font-size: 20px;
+}
+
+#underpassword{
+	color: #9daccb;
+	margin-left: 892px;
+	margin-top: -43px;
+	font-size: 20px;
+}
+
+div p {
+	color: #141823;
+}
+
+.left1 {
+	vertical-align: top;
+	margin-left: 140px;
+	font-size: 50px;
+}
+
+.left2 {
+	vertical-align: top;
+	margin-left: 140px;
+	margin-top: -75px;
+	font-size: 50px;
+}
+
+.leftbelow {
+	font-size: 30px;
+	margin-left: 140px;
+}
+
 }
