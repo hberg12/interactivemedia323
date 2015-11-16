@@ -3,13 +3,11 @@ body {
 }
 
 #topbox {
-	display: block;
-	height: 100px;
-	width: 1230px;
+	position: static;
 	background-color: #3b5998;
-	position: absolute;
-	margin-top: -10px;
-	margin-left: -10px;
+	top: -10px;
+	left: -10px;
+	height: 100px;
 }
 
 div h1 {
@@ -108,4 +106,30 @@ div p {
 	margin-left: 140px;
 }
 
+.right {
+	position:absolute;
+	font-size: 60px;
+	top:200px;
+	left:700px;
+}
+
+.rightbelow {
+	position:absolute;
+	font-size: 40px;
+	top:270px;
+	left:703px;
+}
+
+#first {
+	display: inline-block;
+	float:left;
+	background-color: white;
+	border:0.5px solid #141823;
+	border-radius: 3%;
+	color:lightgray;
+	font-size: 40px;
+	height:30px;
+	width:160px;
+	margin-top: -270px;
+	margin-left: 700px;
 }

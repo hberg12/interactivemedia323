@@ -1,0 +1,176 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: black;
+}
+
+.canvas {
+	width: 900px;
+	height: 556px;
+	margin: 100px auto;
+	background: lightblue;
+	position: relative;
+}
+
+.object {
+	position:absolute;
+}
+
+.vase-container{
+	width: 300px;
+	height: 480px;
+	bottom: 60px;
+	left:200px;
+}
+
+.flower {
+	top:10px;
+	left:100px;
+}
+
+.head {
+	width:150px;
+	height:50px;
+	top:10px;
+	left:18px;
+}
+
+.center {
+	width: 60px;
+	height: 20px;
+	background: yellow;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+	top:80px;
+	left:20px;
+}
+
+.petal.one {
+	width: 65px;
+	height: 25px;
+	background: lightpink;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+	top:78px;
+	left:-48px;
+	
+}
+
+.petal.two{
+	width: 65px;
+	height: 25px;
+	background: lightpink;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+	top:113px;
+	left:-25px;
+	transform:rotate(-45deg);	
+}
+
+.petal.three{
+	width: 65px;
+	height: 25px;
+	background: lightpink;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+	top:122px;
+	left:18px;
+	transform:rotate(90deg);
+	z-index: 2;
+}
+
+.petal.four{
+	width: 65px;
+	height: 25px;
+	background: lightpink;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+	top:113px;
+	left:60px;
+	transform:rotate(45deg);	
+}
+
+.petal.five {
+	width: 65px;
+	height: 25px;
+	background: lightpink;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+	top:78px;
+	left:83px;
+}
+
+.petal.six {
+	width: 65px;
+	height: 25px;
+	background: lightpink;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+	top:42px;
+	left:60px;
+	transform:rotate(-45deg);
+}
+
+.petal.seven{
+	width: 65px;
+	height: 25px;
+	background: lightpink;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+	top:32px;
+	left:18px;
+	transform:rotate(90deg);
+}
+
+.petal.eight{
+	width: 65px;
+	height: 25px;
+	background: lightpink;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+	top:42px;
+	left:-25px;
+	transform:rotate(45deg);
+}
+
+.stem {
+	width:8px;
+	height:340px;
+	background:green;
+	top:100px;
+	left:0px;
+	transform:skew(-12deg);
+	z-index:1;
+}
+
+.vase {
+	top:170px;
+	left:40px;
+	opacity:.6;
+}
+
+.base {
+	width: 0px;
+	height: 0px;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-bottom: 300px solid white;
+}
+
+.top {
+	width:30px;
+	height:60px;
+	background-color: white;
+	left:85px;
+}
