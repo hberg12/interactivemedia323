@@ -1,0 +1,275 @@
+.first {
+
+}
+
+.lineone {
+	font-family: "Tahoma", Geneva, sans-serif;
+	font-size: 40px;
+	text-align: left;
+	display: inline-block;
+	float: left;
+	margin-top: 43px;
+	
+}
+
+.linetwo{
+	font-family: "Courier New", Courier, monospace;
+	font-size: 100px;
+	margin-left: 90px;
+	margin-top: 0px;	
+}
+
+.linethree {
+	font-family: "Tahoma", Geneva, sans-serif;
+	font-size: 20px;
+	margin-top: 10px;
+	
+}
+
+.second{
+
+}
+
+.one {
+	font-family: "Tahoma", Geneva, sans-serif;
+	font-size: 20px;
+	letter-spacing: 1px;
+	margin-left: px;
+	margin-top: px;
+}
+
+.two {
+	font-family: "Tahoma", Geneva, sans-serif;
+	font-size: 38px;
+	margin-left: px;
+	margin-top: px;
+}
+
+.three{
+	font-family: cursive;
+	font-size: 100px;
+	margin-top: -20px;
+	margin-left: px;
+}
+
+.third{
+
+}
+.four {
+	font-family: "Tahoma", Geneva, sans-serif;
+	font-size: 20px;
+	letter-spacing: 14px;
+	margin-left: px;
+	margin-top: px;
+}
+
+.five {
+	font-family: "Tahoma", Geneva, sans-serif;
+	font-size: 38px;
+	margin-left: 435px;
+	margin-top: 10px;
+}
+
+.six{
+	font-family: cursive;
+	font-size: 100px;
+	margin-top: -105px;
+	margin-left: 650px;
+}
+
+.fourth{
+	margin-top: 130px;
+}
+
+.a {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 80px;
+	margin-top: -40px;
+	margin-left: 1px;
+}
+
+.aoneandtwo{
+	margin-top: 50px;
+
+}
+
+.onea {
+	font-family: "Tahoma", Geneva, sans-serif;
+	font-weight: light;
+	font-size: 60px;
+}
+
+.twoa{
+	letter-spacing: 10px;
+	font-size: 90px;
+	display: inline-block;
+	float: left;
+}
+
+.athreeandfour{
+	margin-top: -100px;
+}
+
+.threea {
+	font-family: "Tahoma", Geneva, sans-serif;
+	font-weight: light;
+	font-size: 60px;
+	margin-left: 368px;
+	margin-top: 30px;
+}
+
+.foura{
+	letter-spacing: 10px;
+	font-size: 90px;
+	display: inline-block;
+	float: left;
+}
+
+.afiveandsix {
+	margin-top:-71px;
+}
+
+.fivea {
+	font-family: "Tahoma", Geneva, sans-serif;
+	font-weight: light;
+	font-size: 60px;
+}
+
+.sixa{
+	letter-spacing: 10px;
+	font-size: 90px;
+}
+
+.sevena{
+	letter-spacing: 10px;
+	font-size: 90px;
+	margin-left: 970px;
+}
+
+.fourth{
+	margin-top: 70px;
+}
+
+.b {
+	font-family: "Tahoma", Geneva, sans-serif;
+}
+
+.boneandtwo {
+	margin-left: 1165px;
+	margin-top: 150px;
+}
+
+.oneb {
+	font-size: 86px;
+	margin-top:-100px;
+	
+}
+
+.twob {
+	font-size: 38px;
+	margin-top: -20px;
+
+	
+}
+
+.bthreefourandfive{
+	margin-left: 950px;
+
+}
+
+.threeb{
+	margin-left: 130px;
+	letter-spacing: 14px;
+}
+
+.fourb{
+	margin-left: 239px;
+	margin-top: 5px;
+	letter-spacing: 14px;
+}
+
+.fiveb{
+	margin-left: 70px;
+	margin-top: 7px;
+	letter-spacing: 14px;
+}
+
+.sixb {
+	font-family: cursive;
+	font-size: 80px;
+	font-weight: bold;
+	display: inline-block;
+	float: left;
+	margin-top: -5px;
+	margin-left: 280px;
+	letter-spacing: 5px;
+}
+
+.navigation {
+	margin-top: 150px;
+	margin-left: 44.5%;
+}
+
+.nav {
+	display: inline-block;
+	float: left;
+}
+.left {
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-right: 10px solid black;
+    border-bottom: 5px solid transparent;
+    margin-left: 0px;
+}
+
+.right {
+	width: 0;
+	height: 0;
+	border-top: 5px solid transparent;
+	border-left: 10px solid black;
+	border-bottom: 5px solid transparent;
+	margin-left: 50px;
+}
+
+.home {
+    position: relative;
+    width: 10px;
+    height: 9px;
+    margin-left: 40px;
+}
+.home:before,
+.home:after {
+    position: absolute;
+    content: "";
+    left: 10px;
+    top: 0;
+    width: 10px;
+    height: 16px;
+    background: black;
+    -moz-border-radius: 10px 10px 0 0;
+    border-radius: 10px 10px 0 0;
+    -webkit-transform: rotate(-45deg);
+       -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+         -o-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+    -webkit-transform-origin: 0 100%;
+       -moz-transform-origin: 0 100%;
+        -ms-transform-origin: 0 100%;
+         -o-transform-origin: 0 100%;
+            transform-origin: 0 100%;
+}
+.home:after {
+    left: 0;
+    -webkit-transform: rotate(45deg);
+       -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+         -o-transform: rotate(45deg);
+            transform: rotate(45deg);
+    -webkit-transform-origin: 100% 100%;
+       -moz-transform-origin: 100% 100%;
+        -ms-transform-origin: 100% 100%;
+         -o-transform-origin: 100% 100%;
+            transform-origin :100% 100%;
+}

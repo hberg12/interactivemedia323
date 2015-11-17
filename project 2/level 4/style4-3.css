@@ -1,0 +1,250 @@
+.first{
+	
+}
+
+.lineone {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 20px;
+}
+
+.linetwo{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 100px;
+	margin-top: -40px;
+	margin-left: 1px;
+	
+}
+
+.linethree {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 20px;
+	margin-top: -25px;
+	margin-left: 250px;
+	
+}
+
+.second{
+}
+
+.one {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 20px;
+	letter-spacing: 1px;
+	margin-left: 379px;
+	margin-top: -80px;
+}
+
+.two {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 38px;
+	margin-left: 380px;
+	margin-top: -5px;
+}
+
+.three{
+	font-family: cursive;
+	font-size: 100px;
+	margin-top: -120px;
+	margin-left: 445px;
+}
+
+.four {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 20px;
+	letter-spacing: 14px;
+	margin-left: 600px;
+	margin-top: -100px;
+}
+
+.five {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 38px;
+	margin-left: 598px;
+	margin-top: -5px;
+}
+
+.six{
+	font-family: cursive;
+	font-size: 100px;
+	margin-top: -120px;
+	margin-left: 780px;
+}
+
+.third{
+	margin-top: 50px;
+
+}
+
+.a {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 80px;
+	margin-top: -40px;
+	margin-left: 1px;
+}
+
+.twoa{
+	letter-spacing: 10px;
+	font-size: 90px;
+	display: inline-block;
+	float: left;
+}
+
+.foura{
+	letter-spacing: 10px;
+	font-size: 90px;
+	display: inline-block;
+	float: left;
+}
+
+.sixa{
+	letter-spacing: 10px;
+	font-size: 90px;
+}
+
+
+.sevena{
+	letter-spacing: 10px;
+	font-size: 90px;
+	margin-left: 890px;
+	margin-top: -50px;
+}
+
+.onea {
+	font-family: cursive;
+	font-weight: light;
+	font-size: 60px;
+}
+
+.threea {
+	font-family: cursive;
+	font-weight: light;
+	font-size: 60px;
+}
+
+.fivea {
+	font-family: cursive;
+	font-weight: light;
+	font-size: 60px;
+}
+
+.fourth{
+	margin-top: 10px;
+}
+
+.b {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.oneb {
+	font-size: 86px;
+	margin-top:-30px;
+	
+}
+
+.twob {
+	font-size: 38px;
+	margin-top: -25px;
+	
+	
+}
+
+.threeb{
+	margin-left: 130px;
+	margin-top: -75px;
+	letter-spacing: 14px;
+}
+
+.fourb{
+	margin-left: 242px;
+	margin-top: 5px;
+	letter-spacing: 14px;
+}
+
+.fiveb{
+	margin-left: 121px;
+	margin-top: 7px;
+	letter-spacing: 14px;
+	display: inline-block;
+	float: left;
+}
+
+.sixb {
+	font-family: cursive;
+	font-size: 55px;
+	font-weight: bold;
+	display: inline-block;
+	float: left;
+	margin-top: -55px;
+	margin-left: 15px;
+	letter-spacing: 5px;
+}
+
+.navigation {
+	margin-top: 100px;
+	margin-left: 44.5%;
+}
+
+.nav {
+	display: inline-block;
+	float: left;
+}
+.left {
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-right: 10px solid black;
+    border-bottom: 5px solid transparent;
+    margin-left: 0px;
+}
+
+.right {
+	width: 0;
+	height: 0;
+	border-top: 5px solid transparent;
+	border-left: 10px solid black;
+	border-bottom: 5px solid transparent;
+	margin-left: 50px;
+}
+
+.home {
+    position: relative;
+    width: 10px;
+    height: 9px;
+    margin-left: 40px;
+}
+.home:before,
+.home:after {
+    position: absolute;
+    content: "";
+    left: 10px;
+    top: 0;
+    width: 10px;
+    height: 16px;
+    background: black;
+    -moz-border-radius: 10px 10px 0 0;
+    border-radius: 10px 10px 0 0;
+    -webkit-transform: rotate(-45deg);
+       -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+         -o-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+    -webkit-transform-origin: 0 100%;
+       -moz-transform-origin: 0 100%;
+        -ms-transform-origin: 0 100%;
+         -o-transform-origin: 0 100%;
+            transform-origin: 0 100%;
+}
+.home:after {
+    left: 0;
+    -webkit-transform: rotate(45deg);
+       -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+         -o-transform: rotate(45deg);
+            transform: rotate(45deg);
+    -webkit-transform-origin: 100% 100%;
+       -moz-transform-origin: 100% 100%;
+        -ms-transform-origin: 100% 100%;
+         -o-transform-origin: 100% 100%;
+            transform-origin :100% 100%;
+}
+

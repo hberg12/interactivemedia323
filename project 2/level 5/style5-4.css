@@ -1,0 +1,120 @@
+.box {
+	display: block;
+	height:100px;
+	color:white;
+	text-align: center;
+	padding-top: 50px;
+	margin: -10px;
+	font-family: "Courier New", Courier, monospace;
+}
+
+.one {
+	background-color: #ea7317;
+}
+
+.two {
+	background-color: #fec601;	
+}
+
+.three {
+	background-color: #73bfb8;
+}
+
+.four {
+	background-color: #3da5d9;
+}
+
+.five {
+	background-color: #2364aa;
+}
+
+.six {
+	background-color: #3da5d9;
+}
+
+.seven {
+	background-color: #73bfb8;
+}
+
+.eight {
+	background-color: #fec601;
+}
+
+.nine {
+	background-color: #ea7317;
+}
+
+#morning {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+
+.navigation {
+	margin-top: 0px;
+	margin-left: 44.5%;
+}
+
+.nav {
+	display: inline-block;
+	float: left;
+}
+.left {
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-right: 10px solid black;
+    border-bottom: 5px solid transparent;
+    margin-left: 0px;
+}
+
+.right {
+	width: 0;
+	height: 0;
+	border-top: 5px solid transparent;
+	border-left: 10px solid black;
+	border-bottom: 5px solid transparent;
+	margin-left: 50px;
+}
+
+.home {
+    position: relative;
+    width: 10px;
+    height: 9px;
+    margin-left: 40px;
+}
+.home:before,
+.home:after {
+    position: absolute;
+    content: "";
+    left: 10px;
+    top: 0;
+    width: 10px;
+    height: 16px;
+    background: black;
+    -moz-border-radius: 10px 10px 0 0;
+    border-radius: 10px 10px 0 0;
+    -webkit-transform: rotate(-45deg);
+       -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+         -o-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+    -webkit-transform-origin: 0 100%;
+       -moz-transform-origin: 0 100%;
+        -ms-transform-origin: 0 100%;
+         -o-transform-origin: 0 100%;
+            transform-origin: 0 100%;
+}
+.home:after {
+    left: 0;
+    -webkit-transform: rotate(45deg);
+       -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+         -o-transform: rotate(45deg);
+            transform: rotate(45deg);
+    -webkit-transform-origin: 100% 100%;
+       -moz-transform-origin: 100% 100%;
+        -ms-transform-origin: 100% 100%;
+         -o-transform-origin: 100% 100%;
+            transform-origin :100% 100%;
+}

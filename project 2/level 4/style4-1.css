@@ -1,0 +1,258 @@
+.first{
+
+}
+
+.lineone{
+	font-family: ‘Trebuchet MS’, Helvetica, sans-serif;
+	letter-spacing: 5px;
+	font-size: 50px;
+	line-height: 20px;
+	display: inline-block;
+
+}
+
+.linetwo{
+	font-family: ‘Trebuchet MS’, Helvetica, sans-serif;
+	font-size: 100px;
+	line-height: 42px;
+	margin-top: 30px;
+	clear:left;
+
+
+}
+
+.second {
+	display: inline-block;
+}
+
+.one {
+	font-family: ‘Trebuchet MS’, Helvetica, sans-serif;
+	font-size: 50px;
+	margin-top: 90px;
+	display: inline-block;
+	float: left;
+}
+
+.two {
+	font-family: ‘Trebuchet MS’, Helvetica, sans-serif;
+	font-size: 30px;
+	letter-spacing: 5px;
+	display: inline-block;
+	float: left;
+	margin-top: 60px;
+	margin-left: 50px;
+
+}
+
+.three {
+	font-family: ‘Trebuchet MS’, Helvetica, sans-serif;
+	font-size: 80px;
+	float: left;
+	margin-left: -204px;
+	margin-top: 65px;
+	
+}
+
+.four {
+	font-family: ‘Trebuchet MS’, Helvetica, sans-serif;
+	font-size: 50px;
+	margin-top: 90px;
+	margin-left: 25px;
+	display: inline-block;
+	float: left;
+}
+
+.third {
+
+}
+
+.aone {
+	font-family: ‘Trebuchet MS’, Helvetica, sans-serif;
+	font-size: 20px;
+	margin-top: 20px;
+	display: inline-block;
+	float: left;
+	letter-spacing: 3px;
+
+}
+
+.atwo {
+	font-family: ‘Trebuchet MS’, Helvetica, sans-serif;
+	font-size: 50px;
+	margin-top: -10px;
+	display: inline-block;
+	float: left;
+	clear: left;
+	
+}
+
+.athree {
+	font-family: ‘Trebuchet MS’, Helvetica, sans-serif;
+	font-size: 20px;
+	letter-spacing: 3px;
+	margin-left: 130px;
+	clear: left;
+}
+
+.afour{
+	font-family: ‘Trebuchet MS’, Helvetica, sans-serif;
+	font-size: 50px;
+	margin-top: -10px;
+	letter-spacing: 3px;
+	margin-left: 130px;
+}
+
+.afive {
+	font-family: ‘Trebuchet MS’, Helvetica, sans-serif;
+	font-size: 20px;
+	letter-spacing: 3px;
+	margin-left: 240px;
+	clear: left;
+}
+
+.asix{
+	font-family: ‘Trebuchet MS’, Helvetica, sans-serif;
+	font-size: 50px;
+	margin-top: -10px;
+	letter-spacing: 3px;
+	margin-left: 240px;
+}
+
+.aseven{
+	font-family: ‘Trebuchet MS’, Helvetica, sans-serif;
+	font-size: 50px;
+	margin-top: 5px;
+	letter-spacing: 3px;
+	margin-left: 340px;
+}
+
+.fourth {
+	margin-top:28px;
+
+}
+
+.bone {
+	font-family: ‘Trebuchet MS’, Helvetica, sans-serif;
+	font-size: 20px;
+	letter-spacing: 3px;
+	margin-left: 540px;
+	margin-top: -28px;
+	display: inline-block;
+	float: left;
+}
+
+.btwo {
+	font-family: ‘Trebuchet MS’, Helvetica, sans-serif;
+	font-size: 35px;
+	letter-spacing: 3px;
+	margin-left: 633px;
+	margin-top: -42px;
+	display: inline-block;
+	float: left;
+}
+
+.bthree {
+	font-family: ‘Trebuchet MS’, Helvetica, sans-serif;
+	font-size: 20px;
+	letter-spacing: 3px;
+	margin-left: 820px;
+	margin-top: -28px;
+	display: inline-block;
+	float: left;
+}
+
+.bfour {
+	font-family: ‘Trebuchet MS’, Helvetica, sans-serif;
+	font-size: 35px;
+	letter-spacing: 3px;
+	margin-left: 670px;
+	margin-top: -2px;
+
+}
+
+.bfive {
+	font-family: ‘Trebuchet MS’, Helvetica, sans-serif;
+	font-size: 40px;
+	letter-spacing: 5px;
+	margin-left: 882px;
+	margin-top: -62px;
+	font-weight: bold;
+}
+
+.bsix {
+	font-family: ‘Trebuchet MS’, Helvetica, sans-serif;
+	font-size: 100px;
+	letter-spacing: 7px;
+	margin-left: 0px;
+	margin-top: -22px;
+	font-weight: bold;
+}
+
+.navigation {
+	margin-top: 100px;
+	margin-left: 44.5%;
+}
+
+.nav {
+	display: inline-block;
+	float: left;
+}
+.left {
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-right: 10px solid black;
+    border-bottom: 5px solid transparent;
+    margin-left: 0px;
+}
+
+.right {
+	width: 0;
+	height: 0;
+	border-top: 5px solid transparent;
+	border-left: 10px solid black;
+	border-bottom: 5px solid transparent;
+	margin-left: 50px;
+}
+
+.home {
+    position: relative;
+    width: 10px;
+    height: 9px;
+    margin-left: 40px;
+}
+.home:before,
+.home:after {
+    position: absolute;
+    content: "";
+    left: 10px;
+    top: 0;
+    width: 10px;
+    height: 16px;
+    background: black;
+    -moz-border-radius: 10px 10px 0 0;
+    border-radius: 10px 10px 0 0;
+    -webkit-transform: rotate(-45deg);
+       -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+         -o-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+    -webkit-transform-origin: 0 100%;
+       -moz-transform-origin: 0 100%;
+        -ms-transform-origin: 0 100%;
+         -o-transform-origin: 0 100%;
+            transform-origin: 0 100%;
+}
+.home:after {
+    left: 0;
+    -webkit-transform: rotate(45deg);
+       -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+         -o-transform: rotate(45deg);
+            transform: rotate(45deg);
+    -webkit-transform-origin: 100% 100%;
+       -moz-transform-origin: 100% 100%;
+        -ms-transform-origin: 100% 100%;
+         -o-transform-origin: 100% 100%;
+            transform-origin :100% 100%;
+}

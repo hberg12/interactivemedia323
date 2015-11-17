@@ -1,0 +1,101 @@
+*{
+	background-color: #FAF0CA;
+	color:#F4D35E; 
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 45px;
+	text-align: right;
+}
+
+.bold {
+	color: #EE964B;
+	font-size: 100px;
+}
+
+.blue {
+	color:#10487C;
+	font-size: 30px;
+	font-family: cursive;
+	font-weight: bold;
+}
+
+.space {
+	letter-spacing: 10px;
+	border:3px dotted #F95738;
+}
+
+#lastline {
+	font-size: 80px;
+	color:#F95738;
+	font-variant: small-caps;
+	letter-spacing: 10px;
+	margin-top: -10px;
+}
+
+.navigation {
+	margin-top: 0px;
+	margin-left: 44.5%;
+}
+
+.nav {
+	display: inline-block;
+	float: left;
+}
+.left {
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-right: 10px solid black;
+    border-bottom: 5px solid transparent;
+    margin-left: 0px;
+}
+
+.right {
+	width: 0;
+	height: 0;
+	border-top: 5px solid transparent;
+	border-left: 10px solid black;
+	border-bottom: 5px solid transparent;
+	margin-left: 50px;
+}
+
+.home {
+    position: relative;
+    width: 10px;
+    height: 9px;
+    margin-left: 40px;
+}
+.home:before,
+.home:after {
+    position: absolute;
+    content: "";
+    left: 10px;
+    top: 0;
+    width: 10px;
+    height: 16px;
+    background: black;
+    -moz-border-radius: 10px 10px 0 0;
+    border-radius: 10px 10px 0 0;
+    -webkit-transform: rotate(-45deg);
+       -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+         -o-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+    -webkit-transform-origin: 0 100%;
+       -moz-transform-origin: 0 100%;
+        -ms-transform-origin: 0 100%;
+         -o-transform-origin: 0 100%;
+            transform-origin: 0 100%;
+}
+.home:after {
+    left: 0;
+    -webkit-transform: rotate(45deg);
+       -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+         -o-transform: rotate(45deg);
+            transform: rotate(45deg);
+    -webkit-transform-origin: 100% 100%;
+       -moz-transform-origin: 100% 100%;
+        -ms-transform-origin: 100% 100%;
+         -o-transform-origin: 100% 100%;
+            transform-origin :100% 100%;
+}
