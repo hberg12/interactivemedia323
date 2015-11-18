@@ -10,6 +10,11 @@ body {
 	width: 900px;
 	height: 556px;
 	margin: 100px auto;
+	background: white;
+	position: relative;
+}
+
+.canvas.one {
 	background: lightblue;
 	position: relative;
 }
@@ -173,4 +178,110 @@ body {
 	height:60px;
 	background-color: white;
 	left:85px;
+}
+
+.canvas.two {
+	background: white;
+	position: relative;
+}
+
+
+
+.furniture {
+	width: 400px;
+	height: 500px;
+	position: absolute;
+	margin-left: 150px;
+	margin-top: 50px;
+	
+}
+
+
+.tv{
+	position: absolute;
+	margin-left: 200px;
+	margin-top:50px;
+}
+
+.face {
+	height:90px;
+	width: 140px;
+	background-color: gray;
+	border: 10px solid black;
+}
+
+.stand {
+	margin-left: 5px;
+}
+
+.neck {
+	height: 20px;
+	width: 15px;
+	background-color: black;
+	margin-left: 60px;
+}
+
+.shoulders {
+	height: 10px;
+	width: 80px;
+	background-color: black;
+	margin-left: 28px;
+}
+
+.side {
+	border-bottom: 60px solid #4F1C1C;
+	border-left: 30px solid transparent;
+	border-right: 20px solid transparent;
+	height: 0;
+	width: 320px;
+	transform:rotate(-90deg);
+}
+
+.front {
+	height:320px;
+	width: 220px;
+	background-color: #4F1C1C;
+	margin-top: -190px;
+	margin-left: 190px;
+}
+
+.shelf {
+	width: 220px;
+	height:80px;
+	background-color: #4F1C1C;
+	border: 1px solid black;
+}
+
+.dresser {
+	margin-top: 300px;
+	position: absolute;
+}
+
+.walls{
+	margin-left: 50px;
+	position: absolute;
+}
+
+.wall.a{
+	border-bottom: 400px solid #C9C9C9;
+	border-left: 40px solid transparent;
+	border-right: 70px solid transparent;
+	height: 0;
+	width: 556px;
+	position: absolute;
+	margin-top: 78px;
+	margin-left: -128px;
+	transform:rotate(90deg);
+}
+
+.wall.b {
+	border-bottom: 500px solid #ADADAD;
+	border-left: 70px solid transparent;
+	border-right: 40px solid transparent;
+	height: 0;
+	width: 556px;
+	position: absolute;
+	margin-top: 28px;
+	margin-left: 322px;	
+	transform:rotate(-90deg);
 }
